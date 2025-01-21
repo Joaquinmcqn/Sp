@@ -1,0 +1,121 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f8f0;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+  }
+  
+  /* Contenedor principal */
+  form {
+    display: flex;
+    gap: 40px;
+    background-color: #f5f8f0;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Secciones del formulario */
+  .area-medica, #BuscarPor, div:last-of-type {
+    background: #f5f8f0;
+    padding: 20px;
+    border-radius: 10px;
+    width: 280px;
+  }
+  
+  /* Estilo para los títulos numerados */
+  h1 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+    display: flex;
+    align-items: center;
+  }
+  
+  h1::before {
+    content: "① ";
+    color: #88a84e;
+    font-weight: bold;
+    font-size: 24px;
+    margin-right: 5px;
+  }
+  
+  #BuscarPor h1::before {
+    content: "② ";
+  }
+  
+  div:last-of-type h1::before {
+    content: "③ ";
+  }
+  
+  /* Opciones con radio buttons */
+  .option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  input[type="radio"] {
+    margin-right: 5px;
+    accent-color: #88a84e;
+  }
+  
+  /* Campos de entrada y selección */
+  select, input[type="text"] {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 8px;
+  }
+  
+  #rutt::placeholder {
+    color: #bbb;
+  }
+  
+  h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+  
+  /* Separadores */
+  svg {
+    display: inline-block;
+    vertical-align: middle;
+    height: auto;
+  }
+  
+  /* Botón de continuar */
+  input[type="submit"] {
+    background-color: #ccc;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: not-allowed;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #88a84e;
+    cursor: pointer;
+  }
+  
+  #correo::placeholder {
+    color: #bbb;
+  }
+  
+  

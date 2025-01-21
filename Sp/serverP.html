@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Área médica</title>
+  <link rel="stylesheet" href="fs.css">
+
+</head>
+<body>
+  <form><div class="area-medica">
+    <h1> Área médica</h1>
+    <div class="option">
+      <input type="radio" name="area" checked> Consultas
+    </div>
+    <div class="option">
+      <input type="radio" name="area"> Dental
+    </div>
+    <div class="option">
+      <input type="radio" name="area"> Laboratorio
+    </div>
+    <div class="option">
+      <input type="radio" name="area"> Imágenes
+    </div>
+    <div class="option">
+      <input type="radio" name="area"> Procedimientos
+    </div>
+    <div class="option">
+      <input type="radio" name="area"> Vacunatorio
+    </div>
+    <div class="option">
+      <input type="radio" name="area"> TeleUrgencia
+    </div>
+    <div class="option">
+      <input type="radio" name="area"> Banco de Sangre
+    </div>
+  </div>
+  <svg height="300" width="20" id="L1">
+    <line x1="1" y1="1" x2="1" y2="1500" style="stroke:black;stroke-width:2" />
+</svg>
+
+  <div id="BuscarPor"><h1> Buscar por</h1>
+  <div>
+    <div></div class="option"><input type="radio" name="buscarpor" checked> Especialidad</div>
+    <div class="option"><input type="radio" name="buscarpor">Profesional</div>
+      <select id="buscarporP" name="buscarporOP">
+        <option value="Profesional">Profesional</option>
+        <option value="Especialidad">Especialidad</option></select>
+  </div></div>
+  <br>
+  <svg height="300" width="20" id="L2">
+    <line x1="1" y1="1" x2="1" y2="1500" style="stroke:black;stroke-width:2" />
+</svg>
+<div><h1> Datos del Paciente</h1>
+<div>
+  <div class="option"><input type="radio" name="dpacientes" checked>Nacional</div>
+  <div class="option"><input type="radio" name="dpacientes" >Extranjeros</div>
+  
+  <div><h4>RUT</h4><input type="text" id="rutt" name="ruttextB" placeholder="Ej:10234124-0"></div>
+  <div><h4>Correo Electronico</h4><input type="text" id="correo" name="correoB" placeholder="Ej:gvalenzuela@gmail.com"></div>
+</div>
+<div><input type="submit" value="Agendar"></div></div></form>
+
+
+
+
+<script src="index.js"></script>
+</body>
+</html>
